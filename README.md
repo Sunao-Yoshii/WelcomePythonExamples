@@ -96,7 +96,7 @@ Python が最近よく目につく理由は特にこれです。
 6. [シェルとの共存](useshell/README.md)
 7. [瞬間 HTTP サーバ](http_server/README.md)
 8. [RESTサーバを数行で！](rest_server/README.md)
-9. [Webクライアントもできなくない](web_client/README.md)
+9. [Webクライアント](web_client/README.md)
 10. [テストライブラリ](tests/README.py)
 11. [Web負荷テストを簡単に](stress_test/README.md)
 12. [データ解析前夜(Jupiter)](notebook/notebook_with_data/README.md)

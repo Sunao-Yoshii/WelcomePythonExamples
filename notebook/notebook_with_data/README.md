@@ -1,5 +1,7 @@
 # Jupiter notebook
 
+for Python 3.7.x
+
 公式には https://jupyter.org/ を参照してください。  
 これは一体どう言ったアプリかというと、
 
