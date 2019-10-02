@@ -5,6 +5,8 @@ for Python 3.7.x
 別の章で作成した REST サーバにリクエストを送ってみます。  
 これを利用すればテストで REST API をコールし、その後のログを検証すると言ったことができる様になります。
 
+ ## 標準 urllib.request を利用する
+
 ここでは前章で説明した flask サーバに POST データを送信して結果を取得します。  
 レスポンスからは Cookie なども取得できますので、それを利用すればログイン操作もおそらくできます。
 
@@ -56,3 +58,39 @@ flask サーバ上では
 ```
 
 という様な感じです。
+
+
+## requests サードパーティライブラリを使う
+
+さらに REST に特化し、簡単に利用できるライブラリとして、requests を紹介します。
+
+```sh
+$ pip install requests
+```
+
+Anaconda なら既に入っているかもしれません。  
+これはさらに直感的にリクエストを送信するためのライブラリです。
+
+`requests_client.py` というファイルにサンプルを用意しました。
+
+```python
+import requests
+
+url = 'http://127.0.0.1:5000/hello'
+data = {
+    'value': 123,
+}
+headers = {
+    'Content-Type': 'application/json',
+}
+
+resp = requests.post(url, json=data, headers=headers)
+
+print(resp.status_code)
+print(resp.cookies.get_dict())
+print(resp.headers)
+print(resp.json())
+resp.close()
+```
+
+これでテストがやりやすくなるはず。
