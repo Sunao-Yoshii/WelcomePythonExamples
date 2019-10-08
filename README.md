@@ -86,7 +86,8 @@ Python が最近よく目につく理由は特にこれです。
 
 ## 目次
 
-どうです？第二言語として手を伸ばしてみるのも良いのではないでしょうか？
+どうです？第二言語として手を伸ばしてみるのも良いのではないでしょうか？  
+以下全部チュートリアルです。
 
 1. [Python インストール](1.install/README.md)
 2. [チュートリアル](2.tutorial/README.md)
@@ -99,7 +100,7 @@ Python が最近よく目につく理由は特にこれです。
 9. [Webクライアント](6.web_client/README.md)
 10. [テストライブラリ](7.tests/unittest/README.md)
 11. [Web負荷テストを簡単に](7.tests/stress_test/README.md)
-12. [データ解析前夜(Jupiter)](notebook/notebook_with_data/README.md)
-13. [データ解析(Matplotlib/Pandas)](data_science/README.md)
-14. [数学だって(Numpy/Scipy)](math/README.md)
-15. [機械学習の入り口(scikit-learn)](mechanical_lerning/README.md)
+12. [データ解析前夜(Jupiter)](8.notebook/README.md)
+14. [数学だって(Numpy/Scipy)](9.math/README.md)
+13. [データ解析(Matplotlib/Pandas)](10.data_science/README.md)
+15. [機械学習の入り口(scikit-learn)](11.mechanical_lerning/README.md)

@@ -276,3 +276,71 @@ datetime.datetime(2012, 1, 21, 23, 8, 31, tzinfo=datetime.timezone(datetime.time
 
    尚、ここでは触れていませんが、datime はミリ秒まで対応しています。  
    書式などは 公式 https://docs.python.org/ja/3/library/datetime.html#strftime-strptime-behavior を参照してください。
+
+## ログと統計に使えそうな基本組み込み関数
+
+`len`: リストなど列挙系オブジェクトの要素数を取得する。
+
+```python
+>>> len([1, 2, 3, 8, 16])
+5
+```
+
+`max`: 列挙要素から最大値を取得。
+
+```python
+>>> max([1,2,4,8,16])
+16
+```
+
+`min`: 最小値の取得
+
+```python
+>>> min([1,2,4,8,16])
+1
+```
+
+`sum`: リストなど列挙系の値の合計
+
+```python
+>>> sum([1, 2, 4, 8])
+15
+```
+
+`zip`: 二つのリストを組み合わせてタプルのリストを作成する
+
+```python
+>>> x = [1, 2, 3]
+>>> y = [4, 5, 6]
+>>> zipped = zip(x, y)
+>>> list(zipped)
+[(1, 4), (2, 5), (3, 6)]
+```
+
+`filter`： 第一引数でフィルタ条件、第二引数に Iterable を流し込むと、条件に一致する列挙型が作成されます。  
+この例ではそのままだと表示できないので、`list()` で List 型へ変換しています。
+
+```python
+>>> filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5, 6])
+<filter object at 0x108a8b150>
+>>> list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5, 6]))
+[2, 4, 6]
+```
+
+各種統計機能。  
+数値の入ったリストであればまとめて処理できます。
+
+```python
+from statistics import mean, median,variance,stdev
+
+data = [100,200,300,400,500,500,600,700,800,800]
+
+m = mean(data)
+median = median(data)
+variance = variance(data)
+stdev = stdev(data)
+print('平均: {0:.2f}'.format(m))
+print('中央値: {0:.2f}'.format(median))
+print('分散: {0:.2f}'.format(variance))
+print('標準偏差: {0:.2f}'.format(stdev))
+```
