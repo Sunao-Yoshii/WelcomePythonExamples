@@ -305,6 +305,29 @@ simpl = Simplly('ヒャッハー')
 print(simpl.name())
 ```
 
+入力だって受け付けられます。  
+`input_example.py` として用意しています。
+
+```python
+import sys
+
+# 引数の読み取り
+print(sys.argv)
+
+# 入力を求めることもできます
+input_val = input('input value > ')
+print(input_val)
+```
+
+実行してみると
+
+```bash
+$ python input_example.py 
+['input_example.py']
+input value > aaa
+aaa
+```
+
 ## 推奨はしないけど技法
 
 ### リスト内包表記 & 後置 if
