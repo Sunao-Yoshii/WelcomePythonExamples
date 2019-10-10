@@ -102,5 +102,5 @@ Python が最近よく目につく理由は特にこれです。
 11. [Web負荷テストを簡単に](7.tests/stress_test/README.md)
 12. [データ解析前夜(Jupiter)](8.notebook/README.md)
 14. [数学を手軽に](9.math/README.md)
-13. [データ解析(Matplotlib/Pandas)](10.data_science/anlyse/README.md)
-15. [機械学習の入り口(scikit-learn)](10.data_science/kaggle/README.md)
+13. [データ分析](10.data_analysis/) JupiterNotebook でご確認ください。
+15. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupiterNotebook でご確認ください。
