@@ -1,4 +1,4 @@
-# Jupiter notebook
+# jupyter notebook
 
 for Python 3.7.x
 
@@ -10,7 +10,7 @@ for Python 3.7.x
 
 とか色々書きましたが、言い方を変えると「（文書内のコードが）実行可能なドキュメント環境」と言えると思います。
 
-## Jupiter notebook インストール
+## jupyter notebook インストール
 
 Anaconda を利用してインストールした人は、この手順は必要ありません。  
 Python3.x がインストールされている場合、以下のコマンドでインストールが可能です。
@@ -20,7 +20,7 @@ $ pip install --upgrade pip
 $ pip install jupyter
 ```
 
-## Jupiter notebook 起動
+## jupyter notebook 起動
 
 これ自体はコマンドを実行するだけです。  
 このリポジトリを clone している場合は、`notebook/notebook_with_data/notebooks` にカレントを移動し、次のコマンドを実行します。

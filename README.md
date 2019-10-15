@@ -100,8 +100,8 @@ Python が最近よく目につく理由は特にこれです。
 9. [Webクライアント](6.web_client/README.md)
 10. [テストライブラリ](7.tests/unittest/README.md)
 11. [Web負荷テストを簡単に](7.tests/stress_test/README.md)
-12. [データ解析前夜(Jupiter)](8.notebook/README.md)
-14. [数学を手軽に](9.math/README.md)
-13. [データ分析](10.data_analysis/) JupiterNotebook でご確認ください。
-15. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupiterNotebook でご確認ください。
-16. [データサイエンス基礎](12.datascience/notebooks/) JupiterNotebook でご確認ください。
+12. [データ解析前夜(jupyter)](8.notebook/README.md)
+13. [数学を手軽に](9.math/README.md)
+14. [データ分析](10.data_analysis/) JupyterNotebook でご確認ください。
+15. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupyterNotebook でご確認ください。
+16. [データサイエンス基礎](12.datascience/notebooks/) JupyterNotebook でご確認ください。

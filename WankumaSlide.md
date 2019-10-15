@@ -45,7 +45,7 @@ Scala とか F# とか関数型が割と好きで、変数書き換えにアレ�
 1.4. シェルとの共存
 1.5. Webのテストツールとしての運用
 2. データサイエンスと機械学習へ
-2.1. Jupiter notebook
+2.1. jupyter notebook
 2.2. 数学計算
 2.3. グラフ化とデータ加工
 2.4. 機械学習
@@ -282,23 +282,23 @@ with urllib.request.urlopen(req) as res:
 ### 第二章.データサイエンスと機械学習へ
 ---
 
-### Jupiter notebook
+### jupyter notebook
 
 データサイエンスをやってみようと思った方で、聞いたことない…ってことはあまりないはず。  
 これは Python/Markdown をWeb上でインタラクティブに実行できる環境です。
 
 私の大好き **論よりRUN**
 
-`$ jupiter notebook`
+`$ jupyter notebook`
 
-    Jupiter notebook の利用方法はライブで説明します。
+    jupyter notebook の利用方法はライブで説明します。
     ただし、リポジトリ上には README が記述されています。
 
 ---
 
 ### 数学計算
 
-まだ暗唱するほど使い込んでる訳ではないので、Jupiter notebook で使い方を説明しましょう。
+まだ暗唱するほど使い込んでる訳ではないので、jupyter notebook で使い方を説明しましょう。
 
 `9.math/UseMathLibs.ipynb`
 
