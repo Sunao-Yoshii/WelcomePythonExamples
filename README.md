@@ -104,4 +104,4 @@ Python が最近よく目につく理由は特にこれです。
 14. [数学を手軽に](9.math/README.md)
 13. [データ分析](10.data_analysis/) JupiterNotebook でご確認ください。
 15. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupiterNotebook でご確認ください。
-16. [データサイエンス基礎](12.datascience/notebook/) JupiterNotebook でご確認ください。
+16. [データサイエンス基礎](12.datascience/notebooks/) JupiterNotebook でご確認ください。
