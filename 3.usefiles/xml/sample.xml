@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <title>技術をかじる猫</title>
+    <summary>技術と名のつく物を気ままに齧ります</summary>
+    <entry>
+        <title>XML read in python</title>
+        <summary>Python3でXMLの読み取りを行ってみます</summary>
+    </entry>
+    <entry>
+        <title>Dict read</title>
+        <summary>XMLを辞書として読み取ってみます</summary>
+    </entry>
+</root>

@@ -91,17 +91,18 @@ Python が最近よく目につく理由は特にこれです。
 
 1. [Python インストール](1.install/README.md)
 2. [チュートリアル](2.tutorial/README.md)
-3. [ファイル操作と正規表現(ログ解析など)](3.usefiles/file_and_regex/README.md)
-4. [CSV の IO](3.usefiles/csv/README.md)
-5. [Excel の IO](3.usefiles/excel/README.md)
-6. [シェルとの共存](4.useshell/README.md)
-7. [瞬間 HTTP サーバ](5.servers/http_server/README.md)
-8. [RESTサーバを数行で！](5.servers/rest_server/README.md)
-9. [Webクライアント](6.web_client/README.md)
-10. [テストライブラリ](7.tests/unittest/README.md)
-11. [Web負荷テストを簡単に](7.tests/stress_test/README.md)
-12. [データ解析前夜(jupyter)](8.notebook/README.md)
-13. [数学を手軽に](9.math/README.md)
-14. [データ分析](10.data_analysis/) JupyterNotebook でご確認ください。
-15. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupyterNotebook でご確認ください。
-16. [データサイエンス基礎](12.datascience/notebooks/) JupyterNotebook でご確認ください。
+3. [ファイル操作(ログ解析など)](3.usefiles/file/README.md)
+4. [XML の操作](3.usefiles/xml/README.md)
+5. [CSV の IO](3.usefiles/csv/README.md)
+6. [Excel の IO](3.usefiles/excel/README.md)
+7. [シェルとの共存](4.useshell/README.md)
+8. [瞬間 HTTP サーバ](5.servers/http_server/README.md)
+9. [RESTサーバを数行で！](5.servers/rest_server/README.md)
+10. [Webクライアント](6.web_client/README.md)
+11. [テストライブラリ](7.tests/unittest/README.md)
+12. [Web負荷テストを簡単に](7.tests/stress_test/README.md)
+13. [データ解析前夜(jupyter)](8.notebook/README.md)
+14. [数学を手軽に](9.math/README.md)
+15. [データ分析](10.data_analysis/) JupyterNotebook でご確認ください。
+16. [機械学習の入り口(scikit-learn)](11.mechanical_learning/) JupyterNotebook でご確認ください。
+17. [データサイエンス基礎](12.datascience/notebooks/) JupyterNotebook でご確認ください。
